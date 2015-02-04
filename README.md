@@ -21,7 +21,7 @@ A list of extensions that should be installed via `pecl install`. If you'd like 
 
 ## Dependencies
 
-  - geerlingguy.php
+  - paulthed.php
 
 ## Example Playbook
 
@@ -29,7 +29,7 @@ A list of extensions that should be installed via `pecl install`. If you'd like 
       vars_files:
         - vars/main.yml
       roles:
-        - { role: geerlingguy.php-pecl }
+        - { role: paulthed.php-pecl }
 
 *Inside `vars/main.yml`*:
 
